@@ -1,0 +1,25 @@
+options= {"Monkeys Spinning Monkeys",
+"Love You So",
+"BABY OTAKU",
+'CUFF IT',
+'Aesthetic',
+'DJ Sipak Nando Nando Meyden x DedeOmat',
+'BIZCOCHITO',
+"MELODY ZEXXO SPEED UP KANE",
+"Sensual Seduction",
+"Run Boy Run",
+"KU LO SA ",
+"Somewhere Only We Know",
+"B.O.T.A. (Baddest Of Them All)",
+"DINO SONG",
+"Funny Song",
+"Cool Kids (our sped up version)",
+"Paris",
+"Super Freaky Girl",
+"Unholy",
+"Shut Down",
+"Blade Runner 2049",
+"super freaky girl nicki minaj"
+}
+
+#for easy deployment, we have addded the list here, otherwise, the web scraper to find the trending songs does work

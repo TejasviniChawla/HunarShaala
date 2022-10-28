@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs to cover</title>
+    <style>
+        
+        h2{
+            color: antiquewhite;
+        }
+        span{
+            color: antiquewhite;
+        }
+        body {
+            font-family: "Lato", sans-serif;
+            transition: background-color .5s;
+            }
+
+            .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            }
+
+            .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+            color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+            }
+
+            #main {
+            transition: margin-left .5s;
+            }
+
+            #mySidenav{
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                align-content: space-around;
+            }
+
+            #mySidenav a {
+                min-height: 25%;
+
+            }
+            @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            }
+
+    </style>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">My creations </a>
+        <a href="songs.html">Trending songs to cover</a>
+        <a href="#">Other's creations</a>
+        <a href="#">Learn</a>
+      </div>
+       
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+      
+    <h2>
+        Trending songs:
+    </h2>
+    <span>
+        Create and upload covers of these songs to increase your reach!
+    </span>
+    <div class= "links">
+        <ul id="myUL" class= "myURLS">
+          <li style="list-style-type: bullet;">Monkeys Spinning Monkeys</li>
+          <li style="list-style-type: bullet;">Love You So</li>
+          <li style="list-style-type: bullet;">CUFF IT</li>
+          <li style="list-style-type: bullet;">Aesthetic</li>
+          <li style="list-style-type: bullet;">DJ Sipak Nando Nando Meyden x DedeOmat</li>
+          <li style="list-style-type: bullet;">BIZCOCHITO</li>
+          <li style="list-style-type: bullet;">MELODY ZEXXO SPEED UP KANE</li>
+          <li style="list-style-type: bullet;">Run Boy Run</li>
+          <li style="list-style-type: bullet;">KU LO SA</li>
+          <li style="list-style-type: bullet;">Somewhere Only We Know</li>
+          <li style="list-style-type: bullet;">DINO SONG</li>
+          <li style="list-style-type: bullet;">Super Freaky Girl</li>
+          <li style="list-style-type: bullet;">Unholy</li>
+          <li style="list-style-type: bullet;">B.O.T.A. (Baddest Of Them All)</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

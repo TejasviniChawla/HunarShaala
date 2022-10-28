@@ -1,0 +1,70 @@
+/*.back-video{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+}
+body{
+    background-color: ;
+}
+*/
+
+* {
+  box-sizing: border-box;
+  color:whitesmoke;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.text {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+}
+
+.text{
+    color: aliceblue;
+    position:absolute;
+}
+.flexx {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.c1 {
+    width: 50%;
+    
+}
+
+.c2 {
+    width: 50%;
+
+}
